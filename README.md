@@ -28,27 +28,6 @@ A clean, extensible Java-based OOP project simulating an online bookstore, apply
 
 ---
 
-## 🧱 Project Structure
-
-├── model/
-│ ├── Book.java // Abstract base class
-│ ├── PaperBook.java // Concrete class with stock handling
-│ ├── EBook.java // Concrete class with file type
-│ └── ShowcaseBook.java // Not for sale
-│
-├── Strategy_Pattern_for_Delivery/
-│ ├── DeliveryStrategy.java // Interface
-│ ├── ShippingDeliveryStrategy.java
-│ ├── EmailDeliveryStrategy.java
-│ └── NoDeliveryStrategy.java
-│
-├── inventory/
-│ └── Inventory.java // Handles book management
-│
-├── Factory_Pattern_for_Create/
-│ └── BookFactory.java // Centralized book creation
-│
-├── QuantumBookstoreFullTest.java // Main testing class
 
 
 ## ✅ Usage Example
